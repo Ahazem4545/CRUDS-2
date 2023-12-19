@@ -1,0 +1,57 @@
+<html>
+
+<head>
+
+  <style>
+    body {
+      background-color: #18191A !important;
+      color: white !important;
+    }
+  </style>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+  <div class="container my-5">
+    <label for="productNameInput" class="my-2">ProductName :</label>
+    <input type="text" placeholder="Product Name" class="form-control mb-3" id="productNameInput">
+    <label for="productPriceInput" class="my-2">ProductPrice :</label>
+    <input type="number" placeholder="Product Price" class="form-control mb-3" id="productPriceInput">
+    <label for="productCategoryInput" class="my-2">ProductCategory :</label>
+    <input type="text" placeholder="Product Category" class="form-control mb-3" id="productCategoryInput">
+    <label for="productDescInput" class="my-2">ProductDesc :</label>
+    <textarea type="text" placeholder="Product Description" class="form-control mb-3" id="productDescInput"></textarea>
+
+    <button id="addBtn" onclick="addProduct()" class="btn btn-outline-light">Add Product</button>
+
+    <input type="text" onkeyup="search()" id="searchInput" class="form-control w-50 m-auto my-5 " placeholder="Search...">
+
+    <table class="table text-white text-center my-5">
+      <thead id="tHead">
+        
+      </thead>
+      <tbody id="tBody">
+        
+      </tbody>
+    </table>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

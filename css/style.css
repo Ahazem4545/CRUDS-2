@@ -1,0 +1,23 @@
+.carousel-indicators [data-bs-target]{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-indent: 0;
+    transition: all .2s;
+}
+
+.carousel-indicators .active{
+    width: 100px;
+    height: 100px;
+}
+
+/*  */
+.nav-pills .nav-link.active{
+    background-color: red;
+    border-radius: 30px;
+    
+}
+.nav-pills .nav-link{
+    color: red;
+}
